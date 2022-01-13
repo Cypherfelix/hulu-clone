@@ -1,5 +1,6 @@
 /* eslint-disable import/no-anonymous-default-export */
-const API_KEY = process.env.API_KEY;
+//  const API_KEY = process.env.API_KEY;
+ const API_KEY = "e540c866037d38974a34a29699fdb59d"
 export default {
     fetchTrending: {
         title: "Trending",
