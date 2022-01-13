@@ -40,7 +40,6 @@ export async function getServerSideProps(context) {
   const fetchRes = await fetch(link);
 
   const resulting = await fetchRes.json();
-  console.log(resulting)
   let x = resulting.results
   return{
     props:{
