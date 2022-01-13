@@ -1,6 +1,7 @@
 import Thumbnail from "./Thumbnail"
 import FlipMove from "react-flip-move"
 function Results( {results}) {
+    console.log(results)
     // (result) => 
     // (
     //     <Thumbnail key={result.id} result={result} />
