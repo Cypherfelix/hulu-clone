@@ -35,10 +35,10 @@ export async function getServerSideProps(context) {
   link = 'https://api.themoviedb.org/3' + link
   // const request = await fetch(link).then( (res) => res.json() );
 
-  console.log(link)
   const fetchRes = await fetch(link);
 
   const resulting = await fetchRes.json();
+  console.log(resulting)
   let x = resulting.results
   return{
     props:{
